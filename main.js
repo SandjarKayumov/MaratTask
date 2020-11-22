@@ -28,7 +28,3 @@ window.addEventListener("scroll", function () {
   document.querySelector(".fa-arrow-up").innerHTML = pageYOffset + "px";
   console.log("Scrool");
 });
-
-
-console.log("Test");
-console.log("Hello")
