@@ -5,6 +5,8 @@ tryNowBtn.addEventListener("click", function () {
   modalWindow.classList.toggle("none");
   console.log("Click");
 });
+const countBtn = document.querySelector(".btn");
+console.log(countBtn.classList);
 
 const leftSection = document.querySelector(".left__section");
 leftSection.addEventListener("click", function () {
@@ -23,7 +25,6 @@ window.addEventListener("keyup", function (e) {
 });
 
 window.addEventListener("scroll", function () {
-  document.querySelector(".fa-arrow-down").innerHTML = pageYOffset + "px";
-  const pageHeight = pageYOffset;
+  document.querySelector(".fa-arrow-up").innerHTML = pageYOffset + "px";
   console.log("Scrool");
 })
