@@ -1,5 +1,3 @@
-#Git and Github Course
+#Landing Page
 
 
-
-bla bla bla
