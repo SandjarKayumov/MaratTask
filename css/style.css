@@ -83,7 +83,6 @@ a{
   letter-spacing: 3px;
   line-height: 50px;
   color: #ff6d6d;
-  font-weight:  ;
   font-family: "Exo";
   text-transform: uppercase;
  }
@@ -159,6 +158,7 @@ a{
  /*               SECTION__2               */
  .section_2{
   padding: 180px 0;
+  position: relative;
  }
  .section_2__inner{
   display: flex;
@@ -188,7 +188,17 @@ a{
   margin-bottom:35px ;
  }
  .section_2__inner__right{
-   
+  background-color:#ff6d6d;
+  width: 1000px;
+  height: 500px;
+  position: absolute;
+  top: 500px;
+  right: -400px;
+  transform:rotate(-45deg) ;
+  -webkit-transform:rotate(-45deg) ;
+  -moz-transform:rotate(-45deg) ;
+  -ms-transform:rotate(-45deg) ;
+  -o-transform:rotate(-45deg) ;
 }
  /*               SECTION__2 END           */
 
@@ -198,12 +208,13 @@ a{
   padding: 122px 0;
   text-align: center;
   background-color: #f6f5f3;
+  
 }
 .earphones{
   position: absolute;
   top: -20px;
   right: 177px;
-  z-index: 999;
+  /* z-index: 999; */
 }
 .marker{
   position: absolute;
@@ -242,18 +253,29 @@ a{
  /*               DESCRIPTION               */
 .description{
   padding: 90px 0;
+  position: relative;
+  
 }
-.description__inner{
-
+.description__inner__left{
+  background-color:#ff6d6d;
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 100px;
+  left: -550px;
+  z-index: -999;
+  transform:rotate(-45deg) ;
+  -webkit-transform:rotate(-45deg) ;
+  -moz-transform:rotate(-45deg) ;
+  -ms-transform:rotate(-45deg) ;
+  -o-transform:rotate(-45deg) ;
 }
 .description__items{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.description__item{
 
-}
  /*               DESCRIPTION END               */
 
  /*               CLIENTS                       */
@@ -263,13 +285,15 @@ a{
   padding: 105px 0 85px;
   background-image: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position:center;
   text-align: center;
+
 }
 .clients__inner__items{
   display: flex;
   justify-content: space-around;
   padding: 5px;
+ 
 }
 .client_img{
   width: 76px;
@@ -392,6 +416,22 @@ a{
    /*               FOOTER                */ 
    .footer{
     padding: 82px 0 95px;
+    position: relative;
+    z-index: -999;
+   }
+   .footer__inner__right{
+    background-color:#ff6d6d;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -250px;
+    right: -250px;
+    z-index: 999;
+    transform:rotate(-45deg) ;
+    -webkit-transform:rotate(-45deg) ;
+    -moz-transform:rotate(-45deg) ;
+    -ms-transform:rotate(-45deg) ;
+    -o-transform:rotate(-45deg) ;
    }
    .footer__inner__items{
     display: flex;
