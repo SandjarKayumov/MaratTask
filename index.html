@@ -15,10 +15,20 @@
 <body>
   <header class="header">
     <div class="wrapper">
-      <div class="header__inner">
+      <div class=" header__inner">
         <div class="logo">
           <img src="/images/Logo.png" alt="">
         </div>
+
+        <div class="menu__burger">
+          <div class="menu__open">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+          <div class="menu__close none">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+        </div>
+
         <nav class="nav">
           <ul class="ul">
             <li><a href="#">Home</a></li>
@@ -42,11 +52,13 @@
       <button class="btn">Try now</button>
       <h3 class="main_sub__title">* No need to add cards details</h3>
     </div>
-    <div class="arrow">
-      <div class="arrow__inner">
-        <i class="fa fa-arrow-up"></i>
+    <!-- <div class="wrapper">
+      <div class="arrow">
+        <div class="arrow__inner">
+          <i class="fa fa-arrow-up"></i>
+        </div>
       </div>
-    </div>
+    </div> -->
   </section>
   <section class="section_2">
     <div class="wrapper">
@@ -70,32 +82,35 @@
       </div>
     </div>
   </section>
-  <section class="section__three">
+  <section class="section_3">
     <div class="wrapper">
-      <img class="earphones" src="/images/Earphones.png" alt="">
+      <img class="earphones" src="./images/Earphones.png" alt="">
+      <img class="marker"  src="./images/Pen holder.svg" alt="">
+     
       <h3 class="title">new features </h3>
       <h2 class="sec_sub__title">Some awesone features</h2>
-      <div class="section__three__inner__items">
-        <div class="section__three__inner__item">
-          <img src="/images/picture.png" alt="">
+      <div class="section__3__inner__items">
+        <div class="section__3__inner__item">
+          <img src="./images/picture.png" alt="">
           <h4>Some awesone features</h4>
-          <p class="p">Donec sed odio dui. Aenean lacinia bibendum <br> nulla sed consectetur. Nulla vitae elit libero,
+          <p class="p">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero,
+            a
+            pharetra
+            augue.</p>
+            
+        </div>
+        <div class="section__3__inner__item">
+          <img src="./images/bulb.png" alt="icon">
+          <h4>Some awesone features</h4>
+          <p class="p">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero,
             a
             pharetra
             augue.</p>
         </div>
-        <div class="section__three__inner__item">
-          <img src="/images/bulb.png" alt="icon">
+        <div class="section__3__inner__item">
+          <img src="./images/picture.png" alt="icon">
           <h4>Some awesone features</h4>
-          <p class="p">Donec sed odio dui. Aenean lacinia bibendum <br> nulla sed consectetur. Nulla vitae elit libero,
-            a
-            pharetra
-            augue.</p>
-        </div>
-        <div class="section__three__inner__item">
-          <img src="/images/picture.png" alt="icon">
-          <h4>Some awesone features</h4>
-          <p class="p">Donec sed odio dui. Aenean lacinia bibendum <br> nulla sed consectetur. Nulla vitae elit libero,
+          <p class="p">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero,
             a
             pharetra
             augue.</p>
@@ -107,7 +122,7 @@
     <div class="wrapper">
       <div class="description__inner">
         <div class="description__items">
-          <div class="description__item">
+          <div class="description__item ">
             <div class="macbook">
               <img src="/images/macbook.png" alt="macbook">
             </div>
@@ -121,7 +136,6 @@
               euismod semper.</p>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -130,7 +144,7 @@
       <div class="clients__inner">
         <div class="clients__inner__items">
           <div class="clients__inner__item">
-            <img src="/images/user-1.png" alt="user_1" class="client_img">
+            <img src="./images/user-1.png" alt="user_1" class="client_img">
             <h4 class="client__name">Jonathon Doe</h4>
             <h5 class="pink client__profession">Co Founder</h5>
             <p class="p">“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id
@@ -188,7 +202,7 @@
             mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn. Vestibulum felis
             euismod semper.</p>
         </div>
-        <img  class="browser__image" src="/images/browser.png" alt="">
+        <img class="browser__image" src="/images/browser.png" alt="">
       </div>
     </div>
   </section>
@@ -198,8 +212,8 @@
         <div class="try__now__inner__items">
           <h3 class="title">new features </h3>
           <h2 class="sec_sub__title">Over 1000 designers are using ...</h2>
-          <form>
-            <div class="form__items">
+          <div class="form__items">
+            <form>
               <label for="">
                 <input type="text" placeholder="FULL NAME">
               </label>
@@ -209,21 +223,22 @@
               <label for="">
                 <input type="text" placeholder="PASSWORD">
               </label>
-              <button class="btn">Try now</button>
-            </div>
-          </form>
+              <button class="btn_try_now">Try now</button>
+            </form>
+          </div>
+          
           <p>By Signing up you agree to our <a href="">terms & Services.</a></p>
         </div>
       </div>
     </div>
   </section>
-  <section class="footer">
+  <footer class="footer">
     <div class="wrapper">
       <div class="footer__inner">
         <div class="footer__inner__items">
           <div class="footer__inner__item">
             <div class="footer__logo">
-            <img src="/images/Logo.png" alt="">
+              <img src="/images/Logo.png" alt="">
               <p class="footer__p">Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.
                 USA & CAN: 1-888-123-4567
                 Address: 34 Brokel Rd. NY</p>
@@ -253,7 +268,6 @@
                 <i class="fa fa-paper-plane"></i>
               </button>
             </div>
-
             <div class="footer__icons">
               <i class="fa fa-youtube-play" aria-hidden="true"></i>
               <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -264,7 +278,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </footer>
   <script src="main.js"></script>
 </body>
 
