@@ -440,6 +440,9 @@ a{
    .footer__inner__item{
      width: 20%
    }
+   .footer__logo{
+     width: 240px;
+   }
    .footer__logo span{
     font-size: 27px;
     line-height: 33px;
