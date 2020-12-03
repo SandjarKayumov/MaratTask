@@ -99,10 +99,10 @@ a{
  }
  /*                  BG                    */
 .bg{
-  background-image: url("../images/photo-1433354359170-23a4ae7338c6.svg");
+  background-image: url("../images/backgroundImage.svg");
   background-image: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   max-width: 100%;
   height: 100vh;
   text-align: center;
