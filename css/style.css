@@ -159,6 +159,7 @@ a{
  .section_2{
   padding: 180px 0;
   position: relative;
+  overflow: hidden;
  }
  .section_2__inner{
   display: flex;
@@ -208,7 +209,11 @@ a{
   padding: 122px 0;
   text-align: center;
   background-color: #f6f5f3;
-  
+}
+.pen_holder{
+  position: absolute;
+  top: -20px;
+  left:117px
 }
 .earphones{
   position: absolute;
@@ -216,11 +221,12 @@ a{
   right: 177px;
   /* z-index: 999; */
 }
-.marker{
+.coffee{
   position: absolute;
-  top: -20px;
-  left:117px
+  bottom: -15px;
+  right:100px
 }
+
 .section__3__inner__items{
   display: flex;
   justify-content: space-between;
@@ -281,7 +287,7 @@ a{
  /*               CLIENTS                       */
 .clients{
   /* background-color:#1F2026; */
-  background-image: url('../images/BG.png');
+  background:#000 url('../images/clients/bg.png');
   padding: 105px 0 85px;
   background-image: no-repeat;
   background-size: cover;
@@ -330,6 +336,8 @@ a{
   display: flex;
   justify-content: space-around;
   margin-top: 95px;
+}
+.company__logo__inner__item img{
 }
   /*               CLIENTS END            */ 
   /*               BROWSER            */ 
@@ -418,6 +426,7 @@ a{
     padding: 82px 0 95px;
     position: relative;
     z-index: -999;
+    overflow: hidden;
    }
    .footer__inner__right{
     background-color:#ff6d6d;
