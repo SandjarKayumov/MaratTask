@@ -6,17 +6,10 @@
 
 const btnMenu = document.querySelector(".menu__burger");
 const menuOpen = document.querySelector(".menu__open");
-const menuClose = document.querySelector(".menu__close");
-
+const closeMenu = document.querySelector(".menu__close");
+const nav = document.querySelector(".nav");
 
 btnMenu.addEventListener("click", function () {
-  if(btnMenu){
-    btnMenu.classList.add("menuClose")
-  }
-
-
-
-
-
+  nav.style.display ="block";
   console.log("Menu");
 });
