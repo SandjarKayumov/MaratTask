@@ -62,6 +62,7 @@ a{
   top: 32px;
   right: 22px;
   padding: 5px;
+  display: none;
 }
 .menu__burger .close{
   display: none;
@@ -648,10 +649,6 @@ a{
       -o-transform:rotate(-45deg) ;
   }
 /*               FOOTER END             */ 
-*{
-  /* outline: 1px solid red */
-}
-
             /*                  MEDIA               */
             @media only screen and (max-width:768px){
               .header{
