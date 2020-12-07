@@ -51,18 +51,19 @@ a{
   background-color:#323969;
   padding: 20px 0;
   width: 100%;
+
 }
 .header__inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
-.menu__burger{
-  position: absolute;
-  top: 32px;
-  right: 22px;
-  padding: 5px;
-  display: none;
+.menu__burger {
+    position: absolute;
+    top: 11px;
+    right: 22px;
+    padding: 5px;
 }
 .menu__burger .close{
   display: none;
@@ -97,11 +98,11 @@ a{
   color: #f3f3f3;
 }
 .nav{
-  transition: 1s linear;
+  /* transition: 1s linear;
   -webkit-transition: 1s linear;
   -moz-transition: 1s linear;
   -ms-transition: 1s linear;
-  -o-transition: 1s linear;
+  -o-transition: 1s linear; */
 }
 .nav > .ul{
   display: flex;
@@ -665,7 +666,7 @@ a{
                 background-color: #323969;
                 color:#f3f3f3;
                 padding: 10px;
-                top: 92px;
+                top: 72px;
                 text-align: center;
                 margin: 0 auto;
                 position: absolute;
@@ -677,9 +678,6 @@ a{
             }
             .nav__media a{
               color:#f3f3f3
-            }
-            .bg{
-              padding-top: 75px;
             }
             .rectangle{
               display: none;
