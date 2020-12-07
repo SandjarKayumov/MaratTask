@@ -4,26 +4,29 @@
 // });
 
 const bntBurger = document.querySelector(".menu__burger");
-const menuClose = document.querySelector(".menu__close");
 const faBars = document.querySelector(".fa-bars");
 const faTimes = document.querySelector(".fa-times");
 const navMedia = document.querySelector(".nav__media");
+const burgerMenu =document.getElementById("burger");
 
-const openMenu = function () {
-  navMedia.classList.add("block");
-  faBars.style.display = "block";
-  menuClose.style.display = "block";
-  console.log("Open");
+const handleMenu = function () {
+ if(burgerMenu.classList.contains('menu__burger--open')){
+   burgerMenu.classList.remove("menu__burger--open")
+   navMedia.classList.remove("nav__media--show");
+   return 
+ }
+ navMedia.classList.add("nav__media--show");
+ burgerMenu.classList.add("menu__burger--open")
 }
-const closeMenu = function () {
-  // navMedia.classList.remove("block");
-  // faTimes.style.display = "none";
-  // faBars.style.display = "block";
-  // console.log("Close");
-}
+// const closeMenu = function () {
+//   navMedia.classList.remove("block");
+//   faTimes.style.display = "none";
+//   faBars.style.display = "block";
+//   console.log("Close");
+// }
 
-bntBurger.addEventListener("click", openMenu);
-menuClose.addEventListener("click", closeMenu);
+// bntBurger.addEventListener("click", openMenu);
+// menuClose.addEventListener("click", closeMenu);
 
 
 

@@ -62,17 +62,18 @@ a{
   top: 32px;
   right: 22px;
   padding: 5px;
+}
+.menu__burger .close{
   display: none;
 }
-.menu__close{
-  position: absolute;
-  top: 32px;
-  right: 22px;
-  padding: 5px;
-  display: none;
-}
-.menu__burger .fa-bars, .fa-times{
+.menu__burger-icon {
   color: #f3f3f3;
+}
+.menu__burger--open .close{
+  display: block;
+}
+.menu__burger--open .open{
+  display: none;
 }
 .nav__media{
   display: none;
@@ -89,6 +90,9 @@ a{
   -moz-transition: 1s linear;
   -ms-transition: 1s linear;
   -o-transition: 1s linear;
+}
+.nav__media--show {
+  display: block;
 }
 .nav__media li{
   margin-bottom: 15px;
@@ -648,7 +652,7 @@ a{
   }
 /*               FOOTER END             */ 
 *{
-  outline: 1px solid red
+  /* outline: 1px solid red */
 }
 
             /*                  MEDIA               */
