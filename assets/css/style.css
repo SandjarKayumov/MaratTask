@@ -48,14 +48,15 @@ a {
   border-radius: 50%;
   position: fixed;
   right: 30px;
-  bottom: 30px
+  bottom: 30px;
 }
 
 .arrow__inner {
   position: absolute;
-  top: 13px;
+  top: 11px;
   left: 13px;
-  /* padding: 5px; */
+  padding: 5px;
+ 
 }
 
 /*                       HEADER                      */
@@ -88,7 +89,7 @@ a {
   top: 11px;
   right: 22px;
   padding: 5px;
-  display: none; 
+  display: none;
 }
 
 .menu__burger .close {
@@ -514,7 +515,8 @@ a {
 
 .browser__image {
   margin-top: 110px;
-  /* width: 100%; */
+  width: 100%;
+  height: 100%;
 }
 
 /*               BROWSER END             */
@@ -867,6 +869,14 @@ form {
 }
 
 @media only screen and (max-width:425px) {
+  .main_title{
+    font-size: 46px;
+    line-height: 47px;
+  }
+  .bg{
+    height: 100%;
+    padding-bottom: 25px;
+  }
   .sec_sub__title {
     font-size: 25px;
   }
@@ -879,6 +889,27 @@ form {
   .section_2__inner__right {
     display: none;
   }
+  .pen_holder {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+  }
+  .earphones {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+  }
+  .coffee {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: -10px;
+    right: 10px;
+  }
   .browser {
     padding-top: 50px;
   }
@@ -887,6 +918,10 @@ form {
   }
   .browser__inner {
     padding-top: 0
+  }
+  .try__now_arrow {
+    top: 380px;
+    right: 40px
   }
   .description {
     padding: 45px 0;
